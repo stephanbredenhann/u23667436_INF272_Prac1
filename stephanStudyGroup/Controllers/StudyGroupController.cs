@@ -9,7 +9,6 @@ namespace stephanStudyGroup.Controllers
 {
     public class StudyGroupController : Controller
     {
-        // GET: stephanStudyGroup
         public ActionResult Index()
         {
             List<studyGroupMembers> members = new List<studyGroupMembers>
